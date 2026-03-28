@@ -1,0 +1,61 @@
+# =============================================
+# ShellRPG-cdn .gitignore
+# =============================================
+
+# --- OpenAI / Codex / Agent-Dateien ---
+.codex/
+**/.codex/
+
+# --- Build / generierte Nicht-Source-Dateien ---
+.build/
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.cache
+*.lock
+
+# --- Upload / Verarbeitung / Export ---
+incoming/
+processing/
+transcoded/
+derivatives/
+thumbnails/
+cache/
+exports/
+
+# --- Tooling ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+# --- Logs / lokale Zustände ---
+logs/
+*.log
+
+# --- Environment / Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Niemals ausschließen: kuratierte Quellassets / Manifeste ---
+!assets/
+!manifests/
+!catalog/
+!src/
