@@ -29,6 +29,8 @@ exports/
 venv/
 __pycache__/
 *.pyc
+pytest-cache-files-*/
+pytest-of-*/
 node_modules/
 .npm/
 .pnpm-store/
@@ -37,6 +39,7 @@ node_modules/
 # --- Logs / lokale Zustände ---
 logs/
 *.log
+var/
 
 # --- Environment / Secrets ---
 .env
