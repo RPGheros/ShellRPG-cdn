@@ -3,6 +3,11 @@
 `ShellRPG-cdn` is the public asset and distribution endpoint for curated
 ShellRPG media.
 
+## Maintenance Note
+
+- For relevant content, contract, feature, or editorial changes touching this
+  endpoint, update `README.md`, `README.en.md`, and `VERSION` together.
+
 - Primary WWW asset base:
   `https://cdn.jsdelivr.net/gh/RPGheros/ShellRPG-cdn@main/assets/www`
 - dynv6 fallback is prepared for local and later deployed use

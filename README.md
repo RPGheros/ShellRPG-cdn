@@ -9,6 +9,12 @@ kuratiertes ShellRPG-Material. Der Endpunkt liefert keine autoritative
 Spielmechanik, sondern dient als Quelle fuer Web- und perspektivisch weitere
 public-safe Medienpfade.
 
+## Pflegehinweis
+
+- Bei relevanten Content-, Contract-, Feature- oder Redaktionsaenderungen an
+  diesem Endpunkt `README.md`, `README.en.md` und `VERSION` gemeinsam
+  aktualisieren.
+
 ## Aktueller Stand
 
 - GitHub-backed Primaerpfad fuer WWW-Assets:
